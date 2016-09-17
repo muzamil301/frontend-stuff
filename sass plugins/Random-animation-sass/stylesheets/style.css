@@ -1,0 +1,86 @@
+/* line 1, ../sass/modules/_index.scss */
+body {
+  background-color: #CCC;
+}
+
+/* line 7, ../sass/modules/_index.scss */
+div {
+  display: block;
+}
+
+/* line 13, ../sass/modules/_index.scss */
+a {
+  color: purpel;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 26, ../sass/modules/_index.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 36, ../sass/modules/_index.scss */
+h1 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 44, ../sass/modules/_index.scss */
+::selection {
+  background: #e6ffe6;
+}
+
+/* line 50, ../sass/modules/_index.scss */
+.randomization-sass {
+  height: 100%;
+  position: relative;
+}
+/* line 56, ../sass/modules/_index.scss */
+.randomization-sass .random-move {
+  width: 103px;
+  height: 103px;
+  border-radius: 100%;
+  top: 13vh;
+  left: 14vw;
+  -webkit-animation: colorChange 8s infinite alternate;
+  -moz-animation: colorChange 8s infinite alternate;
+  animation: colorChange 8s infinite alternate;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: rgba(255, 0, 217, 0.2);
+    width: 192px;
+    transform: rotate(36deg);
+  }
+  20% {
+    background-color: rgba(221, 0, 255, 0.2);
+    width: 6px;
+    transform: rotate(9deg);
+  }
+  40% {
+    background-color: rgba(255, 0, 225, 0.2);
+    width: 1px;
+    transform: rotate(2deg);
+  }
+  60% {
+    background-color: rgba(0, 230, 255, 0.2);
+    width: 42em;
+    transform: rotate(8deg);
+  }
+  80% {
+    background-color: rgba(255, 38, 0, 0.2);
+    width: 161px;
+    transform: rotate(5deg);
+  }
+  100% {
+    background-color: rgba(255, 0, 60, 0.6);
+    width: 282px;
+    transform: rotate(152deg);
+  }
+}

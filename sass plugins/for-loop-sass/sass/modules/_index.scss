@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+::selection {
+  background: #E531E7; }
+
+h1 {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+a {
+	color: purpel;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+}
+
+.loop-testing {
+	width: 100%;
+	height: 200px;
+   
+   .small {
+       width: 10px;
+       height: 10px;
+       display: inline-block;
+       background-image: linear-gradient(yellow,#ccc);
+     
+     @for $i from 1 through 50 {
+     	&.small:nth-child(#{$i}) {
+     		 background: hsl($i*10.2, 80, 50.7);
+     		 height: random(200) + px;
+     		      	}
+     }
+     &:hover {
+     	-webkit-transform: scale(2.2);
+     	   -moz-transform: scale(2.2);
+     	    -ms-transform: scale(2.2);
+     	     -o-transform: scale(2.2);
+     	        transform: scale(2.2);
+     }
+
+   }
+}

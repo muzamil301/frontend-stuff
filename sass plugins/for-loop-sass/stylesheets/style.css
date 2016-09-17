@@ -1,0 +1,298 @@
+/* line 1, ../sass/modules/_index.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 6, ../sass/modules/_index.scss */
+::selection {
+  background: #E531E7;
+}
+
+/* line 9, ../sass/modules/_index.scss */
+h1 {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 14, ../sass/modules/_index.scss */
+a {
+  color: purpel;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 22, ../sass/modules/_index.scss */
+.loop-testing {
+  width: 100%;
+  height: 200px;
+}
+/* line 26, ../sass/modules/_index.scss */
+.loop-testing .small {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-image: linear-gradient(yellow, #ccc);
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(1) {
+  background: #e63f1d;
+  height: 21px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(2) {
+  background: #e6611d;
+  height: 39px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(3) {
+  background: #e6831d;
+  height: 22px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(4) {
+  background: #e6a51d;
+  height: 21px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(5) {
+  background: #e6c81d;
+  height: 72px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(6) {
+  background: #e2e61d;
+  height: 103px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(7) {
+  background: #c0e61d;
+  height: 30px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(8) {
+  background: #9de61d;
+  height: 37px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(9) {
+  background: #7be61d;
+  height: 126px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(10) {
+  background: #59e61d;
+  height: 94px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(11) {
+  background: #37e61d;
+  height: 125px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(12) {
+  background: #1de625;
+  height: 145px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(13) {
+  background: #1de647;
+  height: 190px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(14) {
+  background: #1de669;
+  height: 90px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(15) {
+  background: #1de68b;
+  height: 24px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(16) {
+  background: #1de6ae;
+  height: 21px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(17) {
+  background: #1de6d0;
+  height: 164px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(18) {
+  background: #1ddae6;
+  height: 66px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(19) {
+  background: #1db8e6;
+  height: 95px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(20) {
+  background: #1d95e6;
+  height: 174px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(21) {
+  background: #1d73e6;
+  height: 157px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(22) {
+  background: #1d51e6;
+  height: 136px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(23) {
+  background: #1d2fe6;
+  height: 140px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(24) {
+  background: #2d1de6;
+  height: 114px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(25) {
+  background: #4f1de6;
+  height: 73px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(26) {
+  background: #711de6;
+  height: 68px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(27) {
+  background: #931de6;
+  height: 39px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(28) {
+  background: #b61de6;
+  height: 161px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(29) {
+  background: #d81de6;
+  height: 162px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(30) {
+  background: #e61dd2;
+  height: 136px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(31) {
+  background: #e61db0;
+  height: 37px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(32) {
+  background: #e61d8d;
+  height: 94px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(33) {
+  background: #e61d6b;
+  height: 21px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(34) {
+  background: #e61d49;
+  height: 147px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(35) {
+  background: #e61d27;
+  height: 85px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(36) {
+  background: #e6351d;
+  height: 23px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(37) {
+  background: #e6571d;
+  height: 43px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(38) {
+  background: #e6791d;
+  height: 48px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(39) {
+  background: #e69b1d;
+  height: 70px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(40) {
+  background: #e6be1d;
+  height: 28px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(41) {
+  background: #e6e01d;
+  height: 168px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(42) {
+  background: #cae61d;
+  height: 42px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(43) {
+  background: #a8e61d;
+  height: 85px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(44) {
+  background: #85e61d;
+  height: 92px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(45) {
+  background: #63e61d;
+  height: 186px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(46) {
+  background: #41e61d;
+  height: 136px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(47) {
+  background: #1fe61d;
+  height: 132px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(48) {
+  background: #1de63d;
+  height: 97px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(49) {
+  background: #1de65f;
+  height: 162px;
+}
+/* line 33, ../sass/modules/_index.scss */
+.loop-testing .small.small:nth-child(50) {
+  background: #1de681;
+  height: 127px;
+}
+/* line 38, ../sass/modules/_index.scss */
+.loop-testing .small:hover {
+  -webkit-transform: scale(2.2);
+  -moz-transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -o-transform: scale(2.2);
+  transform: scale(2.2);
+}

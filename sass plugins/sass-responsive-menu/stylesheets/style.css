@@ -1,0 +1,99 @@
+/* line 3, ../sass/modules/_index.scss */
+body {
+  background-color: #999;
+}
+
+/* line 6, ../sass/modules/_index.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 10, ../sass/modules/_index.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 14, ../sass/modules/_index.scss */
+header {
+  width: 100%;
+  display: inline-block;
+  background-color: #ccc;
+  text-align: center;
+  min-height: 50px;
+}
+/* line 23, ../sass/modules/_index.scss */
+header nav ul {
+  display: inline-block;
+}
+@media (max-width: 999px) {
+  /* line 23, ../sass/modules/_index.scss */
+  header nav ul {
+    display: none;
+  }
+}
+/* line 29, ../sass/modules/_index.scss */
+header nav ul li {
+  display: inline-block;
+}
+@media (max-width: 999px) {
+  /* line 29, ../sass/modules/_index.scss */
+  header nav ul li {
+    width: 100%;
+  }
+}
+/* line 35, ../sass/modules/_index.scss */
+header nav ul li a {
+  padding: 22px 30px 18px;
+  background-color: #000;
+  color: #fff;
+  line-height: 47px;
+  text-transform: capitalize;
+  -webkit-transition: all ease 1s;
+  -moz-transition: all ease 1s;
+  -o-transition: all ease 1s;
+  transition: all ease 1s;
+}
+@media (max-width: 999px) {
+  /* line 35, ../sass/modules/_index.scss */
+  header nav ul li a {
+    width: 100%;
+    display: inline-block;
+  }
+}
+/* line 48, ../sass/modules/_index.scss */
+header nav ul li a:hover {
+  -webkit-transition: all ease 1s;
+  -moz-transition: all ease 1s;
+  -o-transition: all ease 1s;
+  transition: all ease 1s;
+  background-color: #ccc;
+}
+/* line 54, ../sass/modules/_index.scss */
+header nav ul li a:focus {
+  background-color: #563E77;
+}
+/* line 57, ../sass/modules/_index.scss */
+header nav ul li a:active {
+  background-color: #B82D7F;
+}
+
+/* line 70, ../sass/modules/_index.scss */
+.toggle {
+  display: none;
+}
+@media (max-width: 999px) {
+  /* line 70, ../sass/modules/_index.scss */
+  .toggle {
+    display: block;
+  }
+}
+/* line 75, ../sass/modules/_index.scss */
+.toggle a {
+  background-color: #784A0E;
+  height: 10px;
+  margin: 1px 0;
+  width: 60px;
+  float: left;
+  clear: both;
+}

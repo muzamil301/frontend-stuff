@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Welcome to Sass world!</title>
+	<link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+<div class="toggle">
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+			</div>
+<header>
+
+		<nav>
+			<ul class="show-nav">
+				<li><a href="#">cat-1</a></li>
+				<li><a href="#">cat-2</a></li>
+				<li><a href="#">cat-3</a></li>
+				<li><a href="#">cat-4</a></li>
+				<li><a href="#">cat-5</a></li>
+			</ul>
+		</nav>
+</header>
+<script src="js/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+ $('.toggle').click(function(){
+  $('.show-nav').slideToggle(1000)
+ });
+});
+</script>
+</body>
+</html>

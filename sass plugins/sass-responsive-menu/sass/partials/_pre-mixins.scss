@@ -1,0 +1,17 @@
+$break-large: "max-width:999px";
+
+@mixin radius-prefix($value){ 
+-webkit-border-radius:$value;
+-moz-border-radius:$value;
+-o-border-radius:$value;
+border-radius: $value;
+}
+
+@mixin transition-prefix($value){ 
+-webkit-transition:$value;
+-moz-transition:$value;
+-o-transition:$value;
+transition: $value;
+}
+
+

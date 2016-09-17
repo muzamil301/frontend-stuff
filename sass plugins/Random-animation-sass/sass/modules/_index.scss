@@ -1,0 +1,107 @@
+body{
+
+  background-color: #CCC;
+
+}
+
+div{
+
+  display: block;
+
+}
+
+a {
+
+	color: purpel;
+
+	width: 100%;
+
+	display: inline-block;
+
+	text-align: center;
+
+	text-decoration: none;
+
+}
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing:border-box;
+
+}
+
+h1 {
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+
+::selection {
+
+  background:lighten(green, 70%);
+
+}
+
+.randomization-sass{
+
+    height: 100%; 
+
+    position: relative;
+
+  .random-move{
+
+    $random-size: random(300) !global;
+
+    width: $random-size + px;
+
+    height: $random-size + px;
+
+    border-radius: 100%;  
+
+    top: random(20) + vh;
+
+    left: random(20) + vw;  
+
+
+    -webkit-animation:colorChange 8s infinite alternate; 
+
+    -moz-animation:colorChange 8s infinite alternate; 
+
+    animation:colorChange 8s infinite alternate; 
+
+    @for $i from 1 through 50 {
+
+      .random-move:nth-child(#{$i}) {
+        
+
+      }
+
+    }
+
+  }
+
+}
+  
+
+
+
+ 
+
+
+
+// @-webkit-keyframes 
+
+// @-moz-keyframes
+@keyframes colorChange {
+  0%{background-color: hsla(random(360), 100%, 50%, .2);width: random(200)+px;transform:rotate(random(50)+deg);}
+  20%{background-color: hsla(random(360), 100%, 50%, .2);width: random(20)+px;transform:rotate(random(10)+deg);}
+  40%{background-color: hsla(random(360), 100%, 50%, .2);width: random(30)+px;transform:rotate(random(30)+deg);}
+  60%{background-color: hsla(random(360), 100%, 50%, .2);width: random(100)+em;transform:rotate(random(10)+deg);}
+  80%{background-color: hsla(random(360), 100%, 50%, .2);width: random(300)+px;transform:rotate(random(5)+deg);}
+  100%{background-color: hsla(random(360), 100%, 50%, .6);width: random(400)+px;transform:rotate(random(360)+deg);}
+}
